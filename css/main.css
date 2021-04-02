@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Gilroy-Bold ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Bold ☞'), url('../fonts/Gilroy-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gilroy-Heavy ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Heavy ☞'), url('../fonts/Gilroy-Heavy.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gilroy-Light ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Light ☞'), url('../fonts/Gilroy-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gilroy-Medium ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Medium ☞'), url('../fonts/Gilroy-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gilroy-Regular ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Regular ☞'), url('../fonts/Gilroy-Regular.woff') format('woff');
+}
+
+body, ul, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font: 18px 'Gilroy-Bold ☞';
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+/* Header styles start */
+header {
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+/** nav menu styles start **/
+nav .container {
+    padding: 33px 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 1px solid #828282;
+}
+
+nav .container li {
+    color: #828282;
+
+}
+
+nav .container li.active {
+    color: #000
+}
+/** nav menu styles end **/
+
+/** header description styles start **/
+.header_description {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_description_name {
+    font-size: 47px;
+}
+
+.header_description_info {
+    font-family: 'Gilroy-Medium ☞';
+}
+
+.header_description_language {
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+        
+}
+
+.header_description_language > span {
+    color: #828282;
+}
+
+.header_description_language > span.active,
+.header_description_language > span.stick {
+    color: #000;
+}
+/** header description styles end **/
+
+/** header img styles **/
+.header_img {
+    width: 100%;
+    height: 387px;
+    background: url("../img/header-person.jpeg") center / cover;
+}
+/* Header styles end */
+
+/* About styles start */
+.about {
+    padding: 100px 0;
+    background-color: #f6f6f6;
+}
+
+.about_text {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about_text h3 {
+    font-size: 34px;
+}
+
+.about_text p {
+    padding: 20px 0 20px 0;
+    font-family: 'Gilroy-Medium ☞';
+}
+/* About styles end */
+
+/* Skills styles start */
+.skills {
+    text-align: center;
+    padding: 90px 0 110px 0;
+}
+
+.skills h3 {
+    font-size: 34px;
+    padding-bottom: 65px;
+}
+
+.skills > p {
+    font-family: 'Gilroy-Medium ☞';
+    padding-bottom: 80px;
+}
+
+.skills_instruments {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills_instruments_block p {
+    padding: 20px 0;
+    font-size: 14px;
+    color: #828282;
+}
+/* Skills styles end */
+
+/* Portfolio styles start */
+.portfolio {
+    text-align: center;
+    background-color: #f6f6f6;
+    padding-top: 100px;
+}
+
+.portfolio h3 {
+    padding-bottom: 45px;
+    font-size: 34px;
+}
+
+.portfolio_site p {
+    padding: 40px 0 100px 0;
+    font-family: 'Gilroy-Medium ☞';
+    text-decoration: underline;
+}
+
+.portfolio_site img {
+    width: 100%;
+    max-width: 950px;
+}
+/* Portfolio styles end */
+
+/* Contacts styles start */
+footer {
+    padding: 110px 0;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 34px;
+}
+
+footer > p {
+    font-family: 'Gilroy-Medium ☞';
+    padding: 25px 0 40px 0; 
+}
+
+.contacts_button {
+    padding: 12px 30px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.contacts_links {
+    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+    max-width: 350px;
+    justify-content: space-between;
+}
+
+.contacts_description {
+    font-size: 14px;
+    color: #828282;
+}
+
+/* Contacts styles end */
