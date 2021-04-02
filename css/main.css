@@ -120,7 +120,7 @@ nav .container li.active {
 .about_text {
     margin: 0 auto;
     text-align: center;
-    width: 500px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
 }
